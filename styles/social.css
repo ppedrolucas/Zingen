@@ -1,0 +1,39 @@
+a.social {
+  --bg-img: "";
+  background: var(--bg-img);
+  width: 1.5rem;
+  height: 1.5rem;
+  display: block;
+
+  -webkit-background-clip: initial;
+  background-clip: initial;
+
+  &[aria-label="tiktok"] {
+    --bg-img: url(../assets/icons/tiktok.svg);
+
+    &:hover {
+      --bg-img: url(../assets/icons/tiktok-hover.svg);
+    }
+  }
+  &[aria-label="insta"] {
+    --bg-img: url(../assets/icons/insta.svg);
+
+    &:hover {
+      --bg-img: url(../assets/icons/insta-hover.svg);
+    }
+  }
+  &[aria-label="X"] {
+    --bg-img: url(../assets/icons/x.svg);
+
+    &:hover {
+      --bg-img: url(../assets/icons/x-hover.svg);
+    }
+  }
+  &[aria-label="discord"] {
+    --bg-img: url(../assets/icons/discord.svg);
+
+    &:hover {
+      --bg-img: url(../assets/icons/discord-hover.svg);
+    }
+  }
+}
