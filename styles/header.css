@@ -1,0 +1,6 @@
+header {
+  & a:first-child {
+    /* Primeiro filho */
+    margin-right: auto;
+  }
+}
