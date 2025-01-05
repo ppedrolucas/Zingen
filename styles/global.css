@@ -51,6 +51,7 @@ html {
   color: var(--text-color-primary);
   /* Não haverá transbordamento no eixo X, horizontal */
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 body {
